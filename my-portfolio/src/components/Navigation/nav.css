@@ -1,0 +1,17 @@
+ul li a {
+    color: rgb(200, 114, 114);
+    width: 50%;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+ul li {
+    position: relative;
+    display: inline;
+    left: 700px;
+}
