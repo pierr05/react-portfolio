@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgba(71, 74, 51, 0.983);
+    position: relative;
+    height: 160px;
+}
+
+.title {
+    position: relative;
+    color: rgba(246, 241, 241, 0.844);
+    top: 40px;
+    left: 60px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 26%;
+
+}
+
+/* *{
+    outline: 1px solid red;
+   } */
+
+   html {
+    background-color: rgb(197, 198, 159);
+   }
