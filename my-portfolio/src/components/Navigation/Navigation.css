@@ -1,4 +1,4 @@
-ul li a {
+.links li a{
     color: rgb(200, 114, 114);
     width: 50%;
     margin-right: 50px;
@@ -6,12 +6,13 @@ ul li a {
     font-size: 24px;
 }
 
-ul li:hover {
+.links li a:hover {
     cursor: pointer;
 }
 
-ul li {
+.links li {
     position: relative;
     display: inline;
     left: 700px;
+    bottom: 80px;
 }
