@@ -1,0 +1,61 @@
+.contact{
+    position: relative;
+    left: 150px;
+    width: 25%;
+}
+
+.contact-form {
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 25%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgb(200, 114, 114);
+    border-style: dotted;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(250, 156, 156);
+    border: 1px solid rgb(200, 114, 114);
+}
+
+input {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(200, 114, 114);
+}
+
+input:focus {
+    outline-style: none;
+
+}
+
+.text-area {
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 114, 114);
+}
+
+.text-area:focus {
+    outline-style: dotted;
+}
+
+label {
+    margin: 10px  0 10px 0;
+}
