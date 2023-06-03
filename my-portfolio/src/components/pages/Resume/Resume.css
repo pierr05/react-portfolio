@@ -1,0 +1,31 @@
+.resume-page {
+    position: relative;
+    left: 150px;
+    width: 25%;
+    
+}
+
+.download-resume li{
+    position: relative;
+    left: 50px;
+}
+
+.download-resume li a {
+    text-decoration: none;
+    color: black;
+}
+
+.download-resume li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.front-end li, .back-end li{
+    position: relative;
+    left: 50px;
+    padding: 7px;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
