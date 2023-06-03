@@ -4,27 +4,36 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(197, 198, 159);
+    overflow: auto;
+    min-height: 100%;
+   }
+
 .header {
     background-color: rgba(71, 74, 51, 0.983);
     position: relative;
-    height: 160px;
+    height: 140px;
 }
 
 .title {
     position: relative;
     color: rgba(246, 241, 241, 0.844);
-    top: 40px;
+    top: 50px;
     left: 60px;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
     width: 26%;
 
 }
 
+.title:hover {
+    cursor: pointer;
+}
 /* *{
     outline: 1px solid red;
    } */
-
-   html {
-    background-color: rgb(197, 198, 159);
-   }
