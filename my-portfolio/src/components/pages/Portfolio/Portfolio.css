@@ -1,0 +1,35 @@
+.project-1 img {
+    background-color: red;
+}
+
+.project-1 {
+    position: relative;
+    left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 27.7%;
+}
+
+.project-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.project-1 p a {
+    text-decoration: none;
+}
+
+.project-1 p a:hover {
+    text-decoration: underline;
+}
+
+.project-1 p a:active {
+    color: darkslateblue;
+}
+
+.project-1 p a:visited {
+    color: rgb(110, 111, 131);
+}
+
+.project-infos p {
+    padding-top: 10px;
+}
