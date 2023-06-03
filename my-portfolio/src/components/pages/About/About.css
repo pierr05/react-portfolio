@@ -1,0 +1,33 @@
+/* .first-letter::first-letter {
+    font-size: 30px;
+    color: rgb(200, 114, 114);
+    font-weight: bold;
+    line-height: .75;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    position: relative;
+    width: 45%;
+    left: 200px;
+    font-size: 24px;
+}
+
+h1 {
+    position: relative;
+    color: rgb(200, 114, 114);
+    top: 30px;
+    margin-bottom: 25px;
+}
+
+.react-icon-user {
+    color: rgb(200, 114, 114);
+    margin: 30px 25px;
+    position: inherit;
+    font-size: 50px;
+}
